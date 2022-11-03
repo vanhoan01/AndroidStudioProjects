@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layoutTheLoai"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingHorizontal="15dp"-->
+<!--            android:background="?android:attr/selectableItemBackground"-->
+<!--            tools:ignore="UseCompoundDrawables">-->
+<!--            <TextView-->
+<!--                android:id="@+id/textViewTheLoai"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Thể loại"-->
+<!--                android:textColor="#000000"-->
+<!--                android:background="?android:attr/selectableItemBackground"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layoutCacTheLoai"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginVertical="10dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:background="?android:attr/selectableItemBackground"-->
+<!--            tools:ignore="UseCompoundDrawables">-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:orientation="vertical"-->
+<!--                android:background="?android:attr/selectableItemBackground"-->
+<!--                tools:ignore="UseCompoundDrawables">-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:layout_marginRight="5dp"-->
+<!--                    android:text="Kinh doanh và đầu tư"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:background="#03A9F4" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:layout_marginRight="5dp"-->
+<!--                    android:text="Kinh doanh và đầu tư"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:background="#03A9F4" />-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:orientation="vertical"-->
+<!--                android:background="?android:attr/selectableItemBackground"-->
+<!--                tools:ignore="UseCompoundDrawables">-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:layout_marginRight="15dp"-->
+<!--                    android:text="Kinh doanh và đầu tư"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:background="#03A9F4" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:layout_marginRight="15dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:text="Kinh doanh và đầu tư"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#FFFFFF"-->
+<!--                    android:background="#03A9F4" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+        <LinearLayout
+            android:id="@+id/layoutDanhMuc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="15dp"
+            android:background="?android:attr/selectableItemBackground"
+            tools:ignore="UseCompoundDrawables">
+            <TextView
+                android:id="@+id/textViewBanChay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sách kinh dị"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/next" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewTheLoai"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/layoutDanhMuc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutSach1"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="15dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/textViewLyKi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sách dành cho bạn"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewGoiY"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

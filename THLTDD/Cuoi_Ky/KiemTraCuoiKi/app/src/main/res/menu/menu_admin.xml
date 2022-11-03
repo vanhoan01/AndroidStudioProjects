@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="User"
+        android:icon="@drawable/user_menu"
+        app:showAsAction="always"
+        android:id="@+id/menu_user">
+        <menu>
+            <item android:title="Đăng xuất"
+                android:orderInCategory="2"
+                android:id="@+id/menu_dangxuat"/>
+        </menu>
+    </item>
+    <item android:title="Tổng quan"
+        android:orderInCategory="1"
+        android:id="@+id/menu_tongquan"/>
+    <item android:title="Dịch từ"
+        android:orderInCategory="2"
+        android:id="@+id/menu_dichtu"/>
+    <item android:title="Từ điển"
+        android:orderInCategory="3"
+        android:id="@+id/menu_tudien"/>
+</menu>

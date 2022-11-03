@@ -1,0 +1,6 @@
+User 1: Tài khoản: vanhoan
+	Mật khẩu: vanhoan
+User 2: Tài khoản: kelong
+	Mật khẩu: kelong
+Admin: Tài khoản: admin
+	Mật khẩu: admin

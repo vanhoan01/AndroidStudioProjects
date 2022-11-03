@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bai2</string>
+    <string name="so_a">Số a:</string>
+    <string name="so_b">Số b:</string>
+    <string name="p_cong">+</string>
+    <string name="p_tru">-</string>
+    <string name="p_nhan">x</string>
+    <string name="p_chia">:</string>
+    <string name="ket_qua">Kết quả:</string>
+</resources>

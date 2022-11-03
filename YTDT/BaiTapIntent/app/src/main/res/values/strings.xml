@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BaiTapIntent</string>
+    <string-array name="list_name">
+        <item>hinh1</item>
+        <item>hinh2</item>
+        <item>hinh3</item>
+        <item>hinh4</item>
+        <item>hinh5</item>
+        <item>hinh6</item>
+        <item>hinh7</item>
+        <item>hinh8</item>
+        <item>hinh9</item>
+        <item>hinh10</item>
+    </string-array>
+</resources>

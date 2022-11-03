@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1041255128542",
+    "project_id": "translator-app-d9f40",
+    "storage_bucket": "translator-app-d9f40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041255128542:android:e9fe93d5c6c62cc27d114f",
+        "android_client_info": {
+          "package_name": "com.example.dictionaryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041255128542-qlc1h5vgs70veodt6m6ulkp7cb4ho7a7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCys_DGu2r3EfQeIO78HK5ioJOGWbX4ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041255128542-qlc1h5vgs70veodt6m6ulkp7cb4ho7a7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

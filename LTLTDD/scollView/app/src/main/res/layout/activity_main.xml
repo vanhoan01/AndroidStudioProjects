@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editText1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hãy tưởng tượng vào một thuở xa xưa cách đây lâu ơi là lâu tại một xó xỉnh nào đó ở châu Âu. Trời đã khuya lắm rồi và bạn đang ngồi bên đống lửa, quan sát những hình bóng lung linh in trên vách của cái thùng gỗ ướp lạnh mà bạn gọi là nhà. Mông của bạn tê cóng như ngồi rạp chiếu bóng và chân của bạn cứng đờ như ở trên bàn thờ. Bên ngoài, một đàn sói đang tru tréo đòi bữa tối (là chính bạn đó!). Và xa xa, dưới chân đồi, những gã sát nhân khùng điên mà bạn thường mỉa mai gọi là “hàng xóm” đang lên kế hoạch đập cho bạn đau chí chóe (và cũng chí tử) vào sáng sớm hôm sau! “Ừ!” bạn thầm nghĩ khi lắng nghe tiếng tuyết lở, đè bẹp dí kho chứa củi của bạn; “Đời không phải là một chùm bự những nụ cười!”Rồi một thành viên trong gia đình của bạn bắt đầu phịa ra một câu chuyện kinh hoàng về những vị thần quyền uy, những người hùng quả cảm, những gã khổng lồ phiền nhiễu và những con quái vật thoái hóa. Chẳng phải đợi lâu la, bạn sẽ thấy kinh hoàng trước khung cảnh hoành tráng mà câu chuyện khơi ra, rồi bạn sẽ cười nắc nẻ trước những pha hài hước tuyệt vời của"
+            android:textSize="24dp" />
+    </ScrollView>
+
+</RelativeLayout>

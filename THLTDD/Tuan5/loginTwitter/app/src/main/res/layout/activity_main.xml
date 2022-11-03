@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_gravity="center"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageViewTwitter"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/twitter" />
+
+    <TextView
+        android:id="@+id/textViewWel"
+        android:text="Welcome"
+        android:textSize="32dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="20sp"
+        android:id="@+id/editTextUser"
+        android:shadowRadius="5"
+        android:background="@drawable/bo_goc"
+        android:layout_marginTop="12dp"
+        android:hint="Username or email"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="20sp"
+        android:id="@+id/editTextPass"
+        android:shadowRadius="5"
+        android:background="@drawable/bo_goc"
+        android:layout_marginTop="24dp"
+        android:hint="Password"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textViewForget"
+            android:text="Did you forgot?"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:textColor="#C8C8C8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:textColor="#C8C8C8"
+            android:buttonTint="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember me" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New to Twitter?"
+            android:textColor="#C8C8C8"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/textViewSign"
+            android:layout_below="@+id/textViewNew"
+            android:text="Sign Up"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="-2dp"
+            android:background="@drawable/bo_goc"
+            android:backgroundTint="#2196F3"
+            android:paddingHorizontal="15dp"
+            android:paddingBottom="3dp"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

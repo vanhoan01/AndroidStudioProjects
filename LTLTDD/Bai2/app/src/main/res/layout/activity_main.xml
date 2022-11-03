@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/so_a"
+        android:translationX="16dp"
+        android:translationY="29dp" />
+
+    <EditText
+        android:id="@+id/editTextSoA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:translationX="63dp"
+        android:translationY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/so_b"
+        android:translationX="245dp"
+        android:translationY="29dp" />
+
+    <EditText
+        android:id="@+id/editTextSoB"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:translationX="290dp"
+        android:translationY="16dp" />
+
+    <Button
+        android:id="@+id/buttonCong"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/p_cong"
+        android:translationX="16dp"
+        android:translationY="97dp"
+        android:onClick="phepCong" />
+
+    <Button
+        android:id="@+id/buttonTru"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="phepTru"
+        android:text="@string/p_tru"
+        android:translationX="128dp"
+        android:translationY="97dp" />
+
+    <Button
+        android:id="@+id/buttonNhan"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="phepNhan"
+        android:text="@string/p_nhan"
+        android:translationX="235dp"
+        android:translationY="97dp" />
+
+    <Button
+        android:id="@+id/buttonChia"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="phepChia"
+        android:text="@string/p_chia"
+        android:translationX="345dp"
+        android:translationY="97dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ket_qua"
+        android:translationX="18dp"
+        android:translationY="196dp" />
+
+    <TextView
+        android:id="@+id/textViewKetQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="110dp"
+        android:translationY="196dp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Tính chỉ số khối cơ thể"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtCanNang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginTop="18dp"
+        android:hint="Nhập cân nặng (kg)" />
+
+    <EditText
+        android:id="@+id/edtChieuCao"
+        android:layout_below="@+id/edtCanNang"
+        android:hint="Nhập chiều cao (m)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btDanhGia"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtChieuCao"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#2196F3"
+        android:text="Đánh giá"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txtPhanLoai"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/btDanhGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

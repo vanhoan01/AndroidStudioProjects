@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/hinh_nen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Tên bài hát"
+        android:textColor="#000"
+        android:textSize="24sp" />
+    <ImageView
+        android:id="@+id/imageViewDisc"
+        android:src="@drawable/music_disc"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <LinearLayout
+        android:id="@+id/linearLayoutThoiGian"
+        android:layout_above="@+id/seekBarTime"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textViewTimeNow"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00" />
+        <TextView
+            android:id="@+id/textViewTimeTotal"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBarTime"
+        android:layout_above="@+id/linearLayoutThaoTac"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutThaoTac"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/imageButtonPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/previous" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/imageButtonStop"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/stop" />
+
+        <ImageButton
+            android:id="@+id/imageButtonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+</RelativeLayout>

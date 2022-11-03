@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Facebook"
+        android:textColor="#2196F3"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sdtEmail"
+        android:layout_below="@+id/textTitle"
+        android:hint="Email"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtPasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sdtEmail"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/edtPasword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtForgotPw"
+        android:layout_below="@+id/btLogin"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Forgot password?"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

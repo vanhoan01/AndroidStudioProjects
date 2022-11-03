@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Màu vàng"
+        android:orderInCategory="3"
+        android:id="@+id/menu_vang"/>
+
+    <item android:title="Màu đỏ"
+        android:orderInCategory="2"
+        android:id="@+id/menu_do"/>
+
+    <item android:title="Màu xanh"
+        android:orderInCategory="1"
+        android:id="@+id/menu_xanh"/>
+</menu>
